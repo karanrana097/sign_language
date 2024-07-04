@@ -3,7 +3,7 @@ import cv2
 data_dir='./data'
 if not os.path.exists(data_dir):
     os.makedirs(data_dir)
-number_of_classes=5
+number_of_classes=26
 dataset_size=100
 cap=cv2.VideoCapture(0)
 for j in range(number_of_classes):
